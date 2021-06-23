@@ -1,0 +1,28 @@
+body{
+    /* background-color: rgb(253, 247, 227); */
+    background-color:#f4f9fa;
+   }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myimage{
+    width: 350px;
+    margin-top: 50px;
+}
+
+
+/* Media Queries */
+@media (max-width: 770px){
+    .container{
+        margin:0 10%;
+       
+    }
+    .myimage{
+        width: 100%;;
+    }
+}
